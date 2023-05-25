@@ -1,0 +1,6 @@
+.card {
+  border: 1px solid black; /* Define a espessura e a cor da borda */
+  padding: 10px; /* Define o espaçamento interno para dar espaço entre o texto e a borda */
+  display: inline-block; /* Garante que a borda se ajuste ao conteúdo */
+  cursor: pointer;
+}

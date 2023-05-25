@@ -4,7 +4,7 @@ export function Header() {
     
   return (
     <header className={styles.header} >      
-        <h1 className={styles.fonte}>Projeto Flash Cards</h1>     
+        <h1 className={styles.fonte}>Projeto</h1>     
     </header>
   );
 }
