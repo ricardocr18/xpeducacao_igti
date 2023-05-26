@@ -10,7 +10,8 @@ export function FlashCard({
 
   useEffect(() => {
     setShowTitle(showFlashCardTitle);
-  }),[showFlashCardTitle];
+  }),
+    [showFlashCardTitle];
 
   const fontSizeClassName = showTitle ? { "font-size": "20px" } : { "font-size": "25px" };
 

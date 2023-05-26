@@ -42,7 +42,7 @@ export const allFlashCards = [
     "description": "Estrutura utilizada pelo React para manipulação do DOM em memória. Permite a atualização do DOM real somente onde necessário, o que pode garantir uma melhor performance da aplicação."
   }
 ].map(item => {
-  return { id: getNewId(), ...item, showTitle: true}
+  return {...item, id: getNewId()}
 })
 .sort((a, b) => a.title.localeCompare(b.title))
 

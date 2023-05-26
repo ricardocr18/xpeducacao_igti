@@ -1,0 +1,14 @@
+.cards {
+  border: 1px solid black; /* Define a espessura e a cor da borda */
+  padding: 10px; /* Define o espaçamento interno para dar espaço entre o texto e a borda */
+  display: flex; /* Usar flexbox para alinhar os elementos */
+  gap: 10px; /* Define o espaçamento entre os elementos */
+  justify-content: center; /* Centraliza horizontalmente os elementos */
+  align-items: center; /* Centraliza verticalmente os elementos */
+  width: fit-content; /* Define a largura do container baseado no conteúdo */
+  margin: 0 auto; /* Centraliza o container horizontalmente na tela */
+}
+
+.cards > * {
+  flex: 1; /* Permite que os elementos ocupem espaço igualmente */
+}
